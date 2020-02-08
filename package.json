@@ -1,6 +1,6 @@
 {
   "name": "svelte-quicksearch-bar",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "module": "index.mjs",
   "main": "index.js",
   "svelte": "src/QuickSearchBar.svelte",
@@ -15,9 +15,7 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^5.1.1",
-    "svelte": "^3.18.1"
-  },
-  "dependencies": {
+    "svelte": "^3.18.1",
     "sirv-cli": "^0.4.4"
   },
   "description": "QuickSearchBar for svelte apps",
