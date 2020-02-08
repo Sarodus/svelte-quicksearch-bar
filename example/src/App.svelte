@@ -1,5 +1,5 @@
 <script>
-  import QuickSearchBar from "./QuickSearchBar.svelte";
+  import QuickSearchBar from "../../index.js";
 
   const options = [
     { label: "Index", link: "/" },
@@ -27,7 +27,14 @@
   }
 </style>
 
-<QuickSearchBar {options} {inputEl} bind:value hidden={false} on:pick={onPick} keys={['label', 'link']}>
+<p>Press CTRL+K</p>
+
+<QuickSearchBar
+  {options}
+  {inputEl}
+  bind:value
+  on:pick={onPick}
+  keys={['label', 'link']}>
   <span slot="input">
     <input type="text" bind:value bind:this={inputEl} />
   </span>

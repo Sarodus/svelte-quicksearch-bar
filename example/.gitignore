@@ -2,6 +2,3 @@
 /public/build/
 
 .DS_Store
-
-index.js
-index.mjs
