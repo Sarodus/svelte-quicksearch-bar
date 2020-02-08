@@ -2,6 +2,12 @@
 
 **Open with CTRL+K**
 
+## Installation
+
+```
+npm install --save-dev svelte-quicksearch-bar
+```
+
 ## Example basic usage
 
 

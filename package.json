@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "module": "index.mjs",
   "main": "index.js",
+  "svelte": "src/QuickSearchBar.svelte",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -cw"
@@ -18,5 +19,22 @@
   },
   "dependencies": {
     "sirv-cli": "^0.4.4"
-  }
+  },
+  "description": "QuickSearchBar for svelte apps",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarodus/svelte-quicksearch-bar.git"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "author": "Sarodus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarodus/svelte-quicksearch-bar/issues"
+  },
+  "homepage": "https://github.com/Sarodus/svelte-quicksearch-bar#readme"
 }
