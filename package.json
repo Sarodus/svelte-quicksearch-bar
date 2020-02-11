@@ -1,6 +1,6 @@
 {
   "name": "svelte-quicksearch-bar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "module": "index.mjs",
   "main": "index.js",
   "svelte": "src/QuickSearchBar.svelte",
@@ -10,13 +10,12 @@
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^7.1.1",
-    "fuzzysort": "^1.1.4",
     "rollup": "^1.31.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^5.1.1",
-    "svelte": "^3.18.1",
-    "sirv-cli": "^0.4.4"
+    "sirv-cli": "^0.4.4",
+    "svelte": "^3.18.1"
   },
   "description": "QuickSearchBar for svelte apps",
   "directories": {
@@ -34,5 +33,8 @@
   "bugs": {
     "url": "https://github.com/Sarodus/svelte-quicksearch-bar/issues"
   },
-  "homepage": "https://github.com/Sarodus/svelte-quicksearch-bar#readme"
+  "homepage": "https://github.com/Sarodus/svelte-quicksearch-bar#readme",
+  "dependencies": {
+    "fuzzysort": "^1.1.4"
+  }
 }
