@@ -27,6 +27,7 @@
     hidden = true;
   }
   async function focusText(hidden) {
+    value = "";
     await tick();
     inputEl.focus();
   }

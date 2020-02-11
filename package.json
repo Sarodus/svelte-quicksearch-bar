@@ -1,6 +1,6 @@
 {
   "name": "svelte-quicksearch-bar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "module": "index.mjs",
   "main": "index.js",
   "svelte": "src/QuickSearchBar.svelte",
