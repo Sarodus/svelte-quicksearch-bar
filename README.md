@@ -82,3 +82,11 @@ let value;
 | Event Name | Callback | Description |
 |------|------|----------|
 | pick | option | Fires when the option is selected/clicked
+
+
+## Development of this component
+Go to example folder and run
+```
+npm install
+npm run dev
+```

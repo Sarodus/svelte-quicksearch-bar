@@ -1,5 +1,5 @@
 <script>
-  import QuickSearchBar from "../../index.js";
+  import QuickSearchBar from "../../src/QuickSearchBar.svelte";
 
   const options = [
     { label: "Index", link: "/" },
